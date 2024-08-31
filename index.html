@@ -37,9 +37,6 @@
 					</div>
 				</div>
 
-
-
-
 				<div id="share-container" class="hidden">
 					<div id="share-mobile">
 						<span>Share</span>
@@ -73,18 +70,14 @@
 		const shareButton = document.getElementById("share-button");
 		const shareElement = document.getElementById("share-container");
 		const flexElement = document.getElementById("flex");
-		// const shareBlock = document.getElementById("share-mobile");
 
 		shareButton.addEventListener("click", buttonClicked);
-		// shareButton2.addEventListener("click", buttonClicked2);
 
 		function buttonClicked() {
 			if (window.innerWidth <= 900) {
 				authorContainer.classList.toggle("hidden");
 				shareElement.classList.toggle("hidden");
 				flexElement.classList.toggle("bg-color");
-				// authorContainer.classList.toggle("bg-color")
-				//		author.classList.toggle("hidden");
 			} else {
 				shareElement.classList.toggle("hidden");
 			}

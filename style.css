@@ -73,7 +73,7 @@ main p {
 	font-weight: 400;
 	color: hsl(214, 17%, 51%);
 	font-size: 0.8125rem;
-	margin: 0 30px 0 30px;
+	margin: 0 30px 20px 30px;
 	line-height: 1.2rem;
 }
 
@@ -197,6 +197,11 @@ svg {
 		max-width: 700px;
 	}
 
+	main p {
+		margin: 0 30px 0 30px;
+
+	}
+
 	#card-picture {
 		border-radius: 10px 0 0 10px;
 	}
@@ -206,24 +211,17 @@ svg {
 	}
 
 	.author-image {
-		/* margin: 10px; */
 		padding: 100px;
 	}
 
-	#share {
-		/* left: 74%; */
-		/* bottom: 40%; */
-	}
-
 	#share-mobile {
-	background-color: hsl(217, 19%, 35%);
-	height: 3rem;
+		background-color: hsl(217, 19%, 35%);
+		height: 3rem;
 		position: absolute;
 		width: 15rem;
 		bottom: 3.5rem;
 		right: -4rem;
 		justify-content: center;
-		/* transform: translateX(50%); Move it halfway to the right */
 		z-index: 5;
 		border-radius: 10px;
 	}
@@ -231,8 +229,7 @@ svg {
 	.triangle-down {
 		position: absolute;
 		bottom: 3.25rem;
-
-		
+		right: 2.75rem;
 		width: 0;
 		height: 0;
 		border-left: 5px solid transparent;

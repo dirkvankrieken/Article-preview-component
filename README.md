@@ -10,8 +10,6 @@ This is a solution to the [Article preview component challenge on Frontend Mento
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
@@ -25,12 +23,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.png)
 
 ### Links
 
-- Solution URL:
-- Live Site URL: 
+- Solution URL: [https://github.com/dirkvankrieken/Article-preview-component](https://github.com/dirkvankrieken/Article-preview-component)
+- Live Site URL: [https://dirkvankrieken.github.io/Article-preview-component/](https://dirkvankrieken.github.io/Article-preview-component/)
 
 ## My process
 
@@ -41,13 +39,10 @@ Users should be able to:
 - Mobile-first workflow
 
 ### What I learned
-
-### Continued development
-
-### Useful resources
+To use JavaScript to react to a click "event" and then make an element on the page show.
 
 ## Author
 
-- Website - [Add your name here](https://dirkvankrieken.com
+- Website - [dirkvankrieken.com](https://dirkvankrieken.com)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/dirkvankrieken)
 
